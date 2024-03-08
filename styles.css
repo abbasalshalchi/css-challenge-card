@@ -166,3 +166,25 @@ button:hover {
     padding-bottom: 8px;
 }
 /* display, position, box-sizing, style*/
+
+
+
+@media (max-width: 650px) {
+    .bottomcontainer {
+        flex-direction: column;
+    }
+    .leftdiv {
+        border-radius: 0px 0px 0px 0px;
+    }
+    .rightdiv {
+        border-radius: 0px 0px 6px 6px;
+    }
+}
+
+@media (min-width: 850px) {
+    .container {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
